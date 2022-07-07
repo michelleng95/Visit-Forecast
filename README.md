@@ -4,7 +4,7 @@
 ## Sub-objectives: 
 - Parse data and simplify data for ease of forecasting
 - Determine which is more accurate for forecasting - ETS or ARIMA
-- 
+
 ## Steps: 
 1. Import 'visits_data.yxdb'
 2. Visualize raw data
