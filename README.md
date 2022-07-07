@@ -9,7 +9,7 @@ To obtain an accurate forecast of future visits using historical data.
 ## Steps: 
 1. Import 'visits_data.yxdb'
 2. Visualize raw data
-3. Parse the dates and fill in null cells (option to export as another yxdb file, which is what I did in this case)
+3. Parse the dates and fill in null cells (option to export as another yxdb file, which is what I did here 'Forecast_ModelInput.yxdb')
 4. Filter cleaned data, using first 8 years for forecasting and last year (2015) for validation
 5. Using Join and TS Compare, determine which time series forecasting tool is more accurate -> ARIMA is more accurate in this case
 6. Use ARIMA on the unfiltered dataset and perform TS Forecast
